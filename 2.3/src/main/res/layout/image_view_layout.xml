@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--ImageView测试-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fontstyle"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="ImageView测试"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_test01"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:src="@drawable/welcome"
+                android:background="@color/gray"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:src="@drawable/welcome"
+                android:background="@color/gray"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:src="@drawable/welcome"
+                android:background="@color/gray"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <!--实例：图片浏览器-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="实例：图片浏览器"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="plus 加"/>
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="minus 减"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="next"/>
+        </LinearLayout>
+
+        <!--显示整张图片的ImageView-->
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/one"
+            android:background="@color/gray"
+            android:scaleType="fitCenter"/>
+
+        <!--显示图片局部细节的ImageView、-->
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@color/gray"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

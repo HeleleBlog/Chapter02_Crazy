@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:autoLink="phone|email|web|map"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="10dp"
+            android:editable="true"
+            android:ellipsize="end"
+            android:text="@string/textview_test_str" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:text="hello"
+            android:textSize="20pt" />
+
+        <!--设置中间省略-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="hellohellohellohellohellohellohellohellohello"
+            android:textSize="22sp" />
+
+        <!--对邮件增加链接-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:autoLink="email"
+            android:background="@color/colorPrimary"
+            android:singleLine="true"
+            android:text="测试8888@foxmail.com内容" />
+
+        <!--设置字体颜色、大小，并使用阴影-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/yellow"
+            android:shadowDx="15.0"
+            android:shadowDy="20.0"
+            android:shadowRadius="45.0"
+            android:text="测试文字"
+            android:textSize="25sp" />
+
+        <!--密码框-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:password="true"
+            android:text="密码框" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="实例：带边框、图片的TextView"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            android:text="带边框的文本" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="带图片的文本" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="实例：用户友好的输入界面"
+            android:textSize="20dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="用户名："
+                    android:background="@drawable/bg_border"/>
+
+                <EditText
+                    android:id="@+id/user_name_edit"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入用户名"
+                    android:selectAllOnFocus="true"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="密 码："
+                    android:background="@drawable/bg_border"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="电话号码："
+                    android:background="@drawable/bg_border"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:hint="请输入电话号码"
+                    android:selectAllOnFocus="true"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:text="注册"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

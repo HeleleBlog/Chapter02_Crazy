@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simple.s2.s5.DialogActivity">
+
+    <TextView
+        android:id="@+id/dialog_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="2.5.1 使用AlertDialog创建简单对话框" />
+
+    <TextView
+        android:id="@+id/dialog_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/dialog_1"
+        android:text="2.5.2 使用AlertDialog创建 列表/单选/多选 对话框" />
+
+    <TextView
+        android:id="@+id/dialog_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/dialog_2"
+        android:text="2.5.3 使用AlertDialog创建自定义对话框" />
+
+    <TextView
+        android:id="@+id/dialog_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/dialog_3"
+        android:text="2.5.4 popupwindow" />
+
+    <TextView
+        android:id="@+id/dialog_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/dialog_4"
+        android:text="2.5.5 使用datepickerdialog/timepickerdialog" />
+
+    <TextView
+        android:id="@+id/dialog_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/dialog_5"
+        android:text="2.5.6 使用progressdialog创建进度对话框" />
+</RelativeLayout>

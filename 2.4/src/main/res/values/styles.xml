@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--无标题栏、-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <!--设置屏幕最顶部的颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <!--设置ProgressBar进度条、Seekbar拖动条等控件的颜色-->
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

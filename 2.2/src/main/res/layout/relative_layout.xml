@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"></LinearLayout>
+
+    <!--定义该组件位于父容器的中间-->
+    <TextView
+        android:id="@+id/view_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_launcher"/>
+    <!--位于view_01的上方-->
+    <TextView
+        android:id="@+id/view_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_01"
+        android:layout_alignLeft="@id/view_01"
+        android:background="@mipmap/ic_launcher"/>
+    <!--位于view_01的下方-->
+    <TextView
+        android:id="@+id/view_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_01"
+        android:layout_alignLeft="@id/view_01"
+        android:background="@mipmap/ic_launcher"/>
+    <!--位于view_01的左边-->
+    <TextView
+        android:id="@+id/view_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/view_01"
+        android:layout_alignTop="@id/view_01"
+        android:background="@mipmap/ic_launcher"/>
+    <!--位于view_01的右边-->
+    <TextView
+        android:id="@+id/view_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/view_01"
+        android:layout_alignTop="@id/view_01"
+        android:background="@mipmap/ic_launcher"/>
+
+
+</RelativeLayout>

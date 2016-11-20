@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="2.4.1 自动完成文本框_autocompletetextview"
+        android:textSize="16sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocompletetextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请选择"
+        android:completionHint="请选择您喜欢的产品"
+        android:dropDownWidth="match_parent"
+        android:dropDownHeight="wrap_content"
+        android:completionThreshold="1"/>
+</LinearLayout>

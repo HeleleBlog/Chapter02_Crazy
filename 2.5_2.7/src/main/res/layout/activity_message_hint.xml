@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="simple.s2.s6.MessageHintActivity">
+
+    <TextView
+        android:id="@+id/notification_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知的基本用法"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/notification_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知的高级用法"
+        android:padding="10dp"/>
+</LinearLayout>

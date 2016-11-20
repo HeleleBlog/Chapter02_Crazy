@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/view_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.1 文本框与编辑框" />
+
+    <Button
+        android:id="@+id/view_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.2 button与imagebutton"/>
+
+    <Button
+        android:id="@+id/view_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.4 单选按钮radiobutton和复选框checkbox"/>
+
+    <Button
+        android:id="@+id/view_05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.5 状态开关按钮togglebutton"/>
+
+    <Button
+        android:id="@+id/view_06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.6 时钟 analogclock和digitalclock"/>
+
+    <Button
+        android:id="@+id/view_07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="2.3.7图像视图ImageView"/>
+</LinearLayout>

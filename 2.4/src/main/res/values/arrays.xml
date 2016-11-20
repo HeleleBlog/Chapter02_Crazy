@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>Android 艺术开发探索 第一版</item>
+        <item>Android 艺术开发探索 第二版</item>
+        <item>Android 艺术开发探索 第三版</item>
+        <item>Android 艺术开发探索 第四版</item>
+        <item>Android 艺术开发探索 第五版</item>
+    </string-array>
+
+    <string-array name="programme_languages">
+        <item>C#</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Object-c</item>
+        <item>C</item>
+        <item>C++</item>
+    </string-array>
+
+    <declare-styleable name="Gallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--依次定义7个TextView，先定义的TextView位于底层，后定义的位于上层-->
+    <TextView
+        android:id="@+id/view_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="210dp"
+        android:height="50dp"
+        android:background="#ff0000"/>
+
+    <TextView
+        android:id="@+id/view_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:height="50dp"
+        android:background="#dd0000"/>
+
+    <TextView
+        android:id="@+id/view_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
+        android:height="50dp"
+        android:background="#bb0000"/>
+
+    <TextView
+        android:id="@+id/view_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="120dp"
+        android:height="50dp"
+        android:background="#990000"/>
+
+    <TextView
+        android:id="@+id/view_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="90dp"
+        android:height="50dp"
+        android:background="#770000"/>
+
+    <TextView
+        android:id="@+id/view_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="60dp"
+        android:height="50dp"
+        android:background="#550000"/>
+
+    <TextView
+        android:id="@+id/view_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="30dp"
+        android:height="50dp"
+        android:background="#330000"/>
+
+</FrameLayout>

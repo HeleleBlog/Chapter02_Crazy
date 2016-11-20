@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="simple.s2.s5">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 在SD卡中创建与删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!--读写权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="simple.s2.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name="simple.s2.s6.MessageHintActivity" />
+        <activity android:name=".CustomDialogActivity" />
+        <activity
+            android:name=".MockActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".popupwindow.PopupWindowActivity" />
+        <activity android:name=".popupwindow.ShowAsDropDown" />
+        <activity android:name=".DateTimePickerDialogActivity" />
+        <activity android:name=".ProgressDialogActivity" />
+        <activity android:name="simple.s2.s6.PendingIntentActivity" />
+        <activity android:name="simple.s2.SoundActivity" />
+        <activity android:name="simple.s2.VideoActivity"></activity>
+    </application>
+
+</manifest>

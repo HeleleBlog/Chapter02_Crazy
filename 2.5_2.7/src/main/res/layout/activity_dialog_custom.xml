@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomDialogActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_dialog_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomListDialog"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/custom_dialog_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomLoginDialog"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/custom_dialog_mock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MockActivity"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+</LinearLayout>
